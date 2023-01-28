@@ -3,13 +3,13 @@ version: 0.2
 env:
   variables:
     AWS_REGION: ap-south-1 # checkfor specific region
-    AWS_ACCOUNT_ID: 281290702866
+    AWS_ACCOUNT_ID: 188426723509
     IMAGE_NAME: bluegreenrepo
     
 phases:
   install:
     runtime-versions:
-      nodejs: 16  
+      nodejs: 12  
     commands:
       # - echo Installing Mocha...
       # - npm install -g mocha (test)
